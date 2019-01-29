@@ -1,17 +1,13 @@
-# Barebones React/TypeScript/Express/Sass Boilerplate
-This project is a starting point for a TypeScript based React app that also has a local API server using express.
+# Let's Play with the Boilerplate
+The purpose of this lab is simple: to get the boilerplate working on your computer! Use the reference in this topic to help get you going.
 
-There are 2 different Webpack configurations. One for the server and one for the client.
+# Steps
+* Clone the Boilerplate from this repo.
+* Remove the hidden .git file in your newly cloned project.
+* Install all necessary dependencies.
+* Run the server and make sure you can see the "Hello World" at localhost:3000/.
+* Push this to your own Github repo
+# Optional
+This Boilerplate is written in TypeScript, which you may not have covered yet. If so, play around with the Boilerplate and make your own custom Hello World page to get a feel for the build process and React TypeScript.
 
-## Server
-The server build process compiles the TypeScript files found in `/src/server` into a single bundled JavaScript file located in the `/dist` directory.
-
-## Client
-The client build process compiles the React app located in `/src/client` into a bundled located at `/public/js/app.js`.
-
-The client configuration will also build the Sass files found at `/src/client/scss`. The App component imports the `app.scss` file which already includes an import for Bootstrap.
-
-## Running the project
-In order to run the server, use `npm run dev`, and the server will start on port 3000 (http://localhost:3000). 
-
-Webpack will watch the files. Once you save a file, you can refresh your browser to ensure you got the updated client files. If you only change server files, you *shouldn't* need to refresh.
+Otherwise, head on to the TypeScript videos!
